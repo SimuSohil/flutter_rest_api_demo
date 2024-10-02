@@ -18,7 +18,7 @@ class _PostRequestState extends State<PostRequest> {
     final String name = _nameController.text;
     final String email = _emailController.text;
 
-    const url = 'http://127.0.0.1:5000/post';
+    const url = 'http://127.0.0.1:5050/post';
     final uri = Uri.parse(url);
     final response = await http.post(
       uri,
