@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:requests/get_request.dart';
 import 'package:requests/post_request.dart';
+import 'package:requests/put_request.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +19,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: PostRequest(),
+      home: PutRequest(),
     );
   }
 }
